@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+  font-weight: 400;
+  background-color: $white;
+}
+
+.container {
+  max-width: 1750px;
+  margin: 0 auto;
+  // padding: 0 15px;
+}
+
+button {
+  display: inline-block;
+  font-family: $font;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  font-family: $font;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  &--download {
+    height: 48px;
+    width: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: $white;
+    background-color: $light-green;
+    border-radius: 1.5rem;
+    text-transform: capitalize;
+  }
+}
